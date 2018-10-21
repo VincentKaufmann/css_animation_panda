@@ -1,0 +1,78 @@
+
+
+  /*    ANIMATION SHINNY
+-------------------------------------------------------*/
+  
+
+.shinny {
+-webkit-animation: float 8.2s infinite ease-in-out;
+            
+  
+}
+
+
+
+/*    Keyframes SHINNY
+-------------------------------------------------------*/
+
+
+    
+@-webkit-keyframes float {
+        50% { -webkit-transform: rotateZ(1deg) translateY(-1px) translateX(-30px); }
+  }
+ 
+
+  
+  
+
+
+
+
+
+
+
+/*    ANIMATION BOAT
+-------------------------------------------------------*/
+
+.boat {
+-webkit-animation: rock-boat 3s ease-in-out infinite;
+
+}
+
+
+.boat::before {
+-webkit-animation: steam 1s 5s infinite ease-in-out;
+        
+
+}
+
+
+.boat::after {
+-webkit-animation: steam 1s 2s infinite ease-in-out;
+        animation-delay: .5s;
+
+}
+
+
+  
+
+/*    Keyframes BOAT
+-------------------------------------------------------*/
+
+
+
+@-webkit-keyframes rock-boat {
+  50%   { -webkit-transform: rotate(-5deg) translateY(-10px); }
+
+  
+}
+
+
+@-webkit-keyframes steam {
+  40%,
+  60%       { opacity: 1; }
+  100%      { -webkit-transform: translate(-0%, -50%) rotate(60deg) rotateZ(-60deg) scale(1.5);
+       
+}
+  
+

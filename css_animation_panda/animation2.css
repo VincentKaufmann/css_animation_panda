@@ -1,0 +1,30 @@
+
+/*    ANIMATION SMOKE
+-------------------------------------------------------*/
+
+  
+.house::before {
+-webkit-animation: smoke 3s 2s infinite ease-in-out;
+        
+
+}
+
+
+
+.house::after {
+-webkit-animation: smoke 2s 2s infinite ease-in-out;
+        animation-delay: .5s;
+
+}
+
+
+
+
+
+@-webkit-keyframes smoke {
+  
+    0%      { opacity: 1; }
+  100%      { -webkit-transform: translate(-0%, -10%) rotate(80deg) rotateZ(-60deg) scale(2.5);
+       
+}
+  

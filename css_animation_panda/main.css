@@ -1,0 +1,169 @@
+body {
+  background: #dbEEf6 url(img/island.png) repeat-x 100% -460px;
+  background-size: 800px;
+  
+}
+
+
+.wrapper {
+  position: relative;
+  float: inherit;
+}
+
+.island {
+  position: fixed;
+  width: 500px;
+  height: 400px;
+  left: 13%;
+  top: 16%;
+  position: fixed;
+}
+
+
+.island img {
+  width: 250%;
+}
+
+
+
+.house {
+  position: fixed;
+  max-width: 530px; 
+  left: 41%;
+  top: 17%;
+  position: fixed;
+}
+
+
+
+.house img {
+  width: 50%;
+}
+
+
+
+.house::before {
+              
+              content: "";
+              display: block;
+              width: 50px;
+              height: 150px;
+              background: url('img/smoke1.png') no-repeat;
+              background-size: 20px;
+              position: absolute;
+              align-content: center;
+              background-position:0% 0%;
+              opacity: 1;
+              top: -11px;
+              left: 115px;
+}
+
+
+
+
+.house::after {
+              
+              content: "";
+              display: block;
+              width: 50px;
+              height: 150px;
+              background: url('img/smoke2.png') no-repeat;
+              background-size: 20px;
+              position: absolute;
+              align-content: center;
+              background-position:0% 0%;
+              opacity: 1;
+              top: -11px;
+              left: 115px;
+}
+
+
+
+.boat {
+position: fixed;
+width: 380px;
+top: 39%;
+left: 24%;
+}
+
+
+.boat img {
+  width: 50%;
+}
+
+
+
+
+.boat::before {
+              
+              content: "";
+              display: block;
+              width: 250px;
+              height: 250px;
+              background: url('img/steam_1.png') no-repeat;
+              background-size: 25px;
+              position: absolute;
+              align-content: center;
+              background-position:50% 80%;
+              right: 200px;
+              bottom: 50px;
+              opacity: 0;
+}
+
+
+
+
+.boat::after {
+              
+              content: "";
+              display: block;
+              width: 250px;
+              height: 250px;
+              background: url('img/steam_3.png') no-repeat;
+              background-size: 25px;
+              position: absolute;
+              align-content: center;
+              background-position:50% 80%;
+              right: 200px;
+              bottom: 50px;
+              opacity: 0;
+}
+
+
+
+
+
+
+
+
+.shinny {
+position: fixed;
+width: 502px;
+height: 351px;
+top: 65%;
+left: 35%;
+  -webkit-transform: rotateZ(-5deg);
+}
+
+
+.shinny img {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+Absolute Positioning
+% instead of px
+floats
+
+*/
+
